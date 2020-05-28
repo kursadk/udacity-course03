@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udacity-course3-bucket
+  AWS_PROFILE: default
+  AWS_REGION: eu-central-1
+  JWT_SECRET: Super-JWT-Secret
+  POSTGRESS_DB: udacity-course3-db
+  POSTGRESS_HOST: udacity-db.c8oavt3jnaao.eu-central-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
